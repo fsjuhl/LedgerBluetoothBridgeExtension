@@ -18,6 +18,7 @@ class BluetoothBridgeTransport {
                 _this.state = "open"
             } else if (message.type == "closed") {
                 _this.state = "closed"
+                _this.hook.onDisconnect()
             } else if (message.type == "exchangeResponse") {
                 _this.hook.resolveExchange(Buffer.from(message.response, "hex"))
             }

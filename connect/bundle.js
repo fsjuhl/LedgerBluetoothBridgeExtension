@@ -2717,6 +2717,7 @@ async function connect() {
         transport = await Transport.default.open("")
         deviceName.innerHTML = transport.device.name
 
+        transport.device.ongattserverdisconnected = disconnect
         await transport.inferMTU()
         setState("connected")
         port.postMessage({ type: "opened" })
@@ -2727,9 +2728,7 @@ async function connect() {
 }
 
 port.onMessage.addListener(async info => {
-    if (info.type == "open") {
-        document.getElementById("connect").click()
-    } else if (info.type == "exchange") {
+    if (info.type == "exchange") {
         const response = await transport.exchange(Buffer.from(info.data, "hex")).then(res => res.toString("hex"))
         port.postMessage({ type: "exchangeResponse", response })
     }
