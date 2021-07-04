@@ -23,7 +23,7 @@ If something doesn't work, your best bet is to refresh first the extension, then
 
 ## Troubleshooting
 On Windows, you may have to pair the device with your computer before its able to connect.
-Simply do this in the Windows settings, then confirm the pairing code on your Ledger.
+Simply do this in the Windows settings, confirm the pairing code on your Ledger, then you should be able to connect in the connection tab again.
 
 ## Disclaimer
 This may be buggy, and it should just be taken and used as a proof of concept.
