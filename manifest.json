@@ -1,0 +1,20 @@
+{
+    "name": "Ledger Nano X Bluetooth Bridge",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "background",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "*://metamask.github.io/*",
+        "https://ledgerbluetoothbridge.example.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "web_accessible_resources": [
+        "modified-bridge.js"
+    ]
+}
