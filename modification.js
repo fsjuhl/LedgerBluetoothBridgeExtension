@@ -35,6 +35,7 @@ class BluetoothBridgeTransport {
             } catch (err) {
                 console.error(err)
                 _this.stopSync()
+                _this.state = "closed"
             }
         }
 
