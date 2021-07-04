@@ -6,7 +6,7 @@ Allows you to (finally) use your Ledger Nano X with Metamask via Bluetooth!
 ## Installation
  - Install the extension:
  - - Either by loading the extension unpacked, via the extensions tab (remember to enable developer mode).
- - - Or by downloading from the [Google Web Store](https://chrome.google.com/webstore/detail/COMING/SOON).
+ - - Or by downloading from the [Google Web Store](https://chrome.google.com/webstore/detail/COMING/SOON) (coming soon).
  - Reload Metamask (turn off and back on), through the [extensions tab](chrome://extensions/?id=nkbihfbeogaeaoehlefnkodbefgpgknn).
  - Enable Ledger Live integration in Metamask settings
  - - Click on your accounts (the top right image)
