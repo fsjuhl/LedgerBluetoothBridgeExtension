@@ -1,6 +1,6 @@
 # Ledger Nano X Bluetooth Bridge
 Allows you to (finally) use your Ledger Nano X with Metamask via Bluetooth!
-
+![demo video](https://i.imgur.com/IrbQi8C.mp4)
 ![extension tab](./screenshot.jpeg)
 
 ## Installation
